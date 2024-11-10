@@ -1,0 +1,12 @@
+solution
+
+if __name__ == '__main__':
+    main()
+def main():
+    # Prompt the user to enter their favorite animal
+    favorite_animal = input("What's your favorite animal? ")
+    
+    # Respond with a message echoing their favorite animal
+    print(f"My favorite animal is also {favorite_animal}!")
+# Call the main function
+main()
